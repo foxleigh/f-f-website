@@ -1,0 +1,15 @@
+.homepage {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: 50vh;
+  grid-template-areas: 
+    ". a a ."
+    ". a a .";
+  img {
+    grid-area: a;
+    align-self: center;
+    justify-self: center;
+  }
+}
